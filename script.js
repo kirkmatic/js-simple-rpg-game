@@ -282,3 +282,11 @@ function pick(guess) {
         }
   }
 }
+
+// try functions
+
+const main = document.querySelector("main");
+
+
+
+
