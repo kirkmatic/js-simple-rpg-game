@@ -1,52 +1,79 @@
-/* body {
+body {
     background-color: #0a0a23;
-  }
-  
-  #text {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#text {
     background-color: #0a0a23;
     color: #ffffff;
     padding: 10px;
-  }
-  
-  #game {
+}
+
+#game {
     max-width: 500px;
     max-height: 400px;
     background-color: #ffffff;
-    color: #ffffff;
-    margin: 30px auto 0px;
+    color: #0a0a23;
+    margin: 30px auto;
     padding: 10px;
-  }
-  
-  #controls,
-  #stats {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#controls,
+#stats {
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #0a0a23;
-  }
-  
-  #monsterStats {
+    margin: 10px 0;
+}
+
+#monsterStats {
     display: none;
     border: 1px solid #0a0a23;
     padding: 5px;
     color: #ffffff;
     background-color: #c70d0d;
-  }
-  
-  .stat {
+    margin: 10px 0;
+}
+
+.stat {
     padding-right: 10px;
-  }
-  
-  button {
+}
+
+button {
     cursor: pointer;
     color: #0a0a23;
     background-color: #feac32;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 3px solid #feac32;
-  } */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 16px;
+}
 
-  /* Added features */
+button:hover {
+    background-color: #ffcc66;
+    background-image: linear-gradient(#ffdd99, #ffcc66);
+}
 
-  .main{
+.main {
     color: aqua;
-    
-  }
+    text-align: center;
+    margin-top: 20px;
+}
+
+#images {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
